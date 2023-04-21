@@ -114,16 +114,6 @@ h1 {
   border: 1px solid rgba(179, 75, 37, 0.3);
 }
 
-#conteudo-acompanhamento-servico form>#mensagem {
-  color: #b34b25;
-  text-align: center;
-  align-self: center;
-  padding: 20px;
-  width: 50%;
-  background-color: #ff7f5066;
-  border: 2px dashed #b34b25;
-}
-
 #conteudo-cadastro-os form div,
 #conteudo-acompanhamento-servico form div,
 #conteudo-servicos-software form div {
@@ -146,7 +136,6 @@ h1 {
   width: 100%;
 }
 
-#conteudo-cadastro-os form select,
 #conteudo-cadastro-os form input[type="file"] {
   cursor: pointer;
 }
