@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Shadows+Into+Light&display=swap');
 
 * {
   margin: 0;
@@ -19,6 +19,7 @@ h1 {
 }
 
 .menu-navegacao {
+  font-family: 'Shadows Into Light', cursive;
   position: fixed;
   top: 0;
   width: 100%;
@@ -35,9 +36,9 @@ h1 {
 
 .menu-navegacao a {
   color: inherit;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 20px;
   text-align: center;
   text-decoration: none;
 }
