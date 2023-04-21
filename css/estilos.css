@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin: 100px 0 40px 0;
+}
+
+.menu-navegacao {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: 700;
+  color: #b34b25;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #ff7f50;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.menu-navegacao a {
+  color: inherit;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-navegacao a:last-child {
+  margin-right: 0;
+}
+
+.menu-navegacao a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Página - Assistência */
+#conteudo-assistencia {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px;
+}
+
+#conteudo-assistencia h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#conteudo-assistencia ul {
+  color: #b34b25;
+  align-self: center;
+  list-style: none;
+  padding: 30px;
+  background-color: #ff7f5066;
+  border: 2px dashed #b34b25;
+}
+
+#conteudo-assistencia ul li {
+  margin-bottom: 10px;
+}
+
+#conteudo-assistencia ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Página - Cadastro Ordem de Serviço */
+/* Página - Acompanhamento de Serviço */
+/* Página - Serviços de Software */
+
+#conteudo-cadastro-os,
+#conteudo-acompanhamento-servico,
+#conteudo-servicos-software {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#conteudo-cadastro-os form,
+#conteudo-acompanhamento-servico form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff7f5042;
+  width: 70%;
+  padding: 20px 40px;
+  border: 1px solid rgba(179, 75, 37, 0.3);
+}
+
+#conteudo-servicos-software form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 20px 40px;
+  background-color: #ff7f5042;
+  border: 1px solid rgba(179, 75, 37, 0.3);
+}
+
+#conteudo-acompanhamento-servico form>#mensagem {
+  color: #b34b25;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+  width: 50%;
+  background-color: #ff7f5066;
+  border: 2px dashed #b34b25;
+}
+
+#conteudo-cadastro-os form div,
+#conteudo-acompanhamento-servico form div,
+#conteudo-servicos-software form div {
+  margin-bottom: 20px;
+}
+
+#conteudo-cadastro-os form div:last-child,
+#conteudo-acompanhamento-servico form div:last-child,
+#conteudo-servicos-software form div:last-child {
+  margin-bottom: 0;
+}
+
+#conteudo-cadastro-os form select,
+#conteudo-cadastro-os form textarea,
+#conteudo-cadastro-os form input[type="text"],
+#conteudo-acompanhamento-servico form input[type="text"],
+#conteudo-cadastro-os form input[type="file"] {
+  display: inline-block;
+  margin-top: 5px;
+  width: 100%;
+}
+
+#conteudo-cadastro-os form select,
+#conteudo-cadastro-os form input[type="file"] {
+  cursor: pointer;
+}
+
+#conteudo-cadastro-os form select,
+#conteudo-cadastro-os form input[type="text"],
+#conteudo-acompanhamento-servico form input[type="text"] {
+  padding: 8px;
+}
+
+#conteudo-cadastro-os form input[type="file"] {
+  padding: 10px;
+  border: 1px solid;
+  background-color: #fff;
+}
+
+#conteudo-cadastro-os form #botao-cadastro,
+#conteudo-acompanhamento-servico form #botao-enviar,
+#conteudo-servicos-software form #botao-solicitar-servicos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo-cadastro-os form button,
+#conteudo-acompanhamento-servico form button,
+#conteudo-servicos-software form button {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #ff7f50;
+}
+
+/* Página - Informações de Tipos Comuns de Defeitos de Celular */
+/* Página - Revenda de Celular Usado */
+/* Página - Revenda de Acessórios Usados */
+
+#conteudo-tipos-defeitos,
+#conteudo-revenda-celular-usado,
+#conteudo-revenda-acessorios-usado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+#conteudo-tipos-defeitos table,
+#conteudo-revenda-celular-usado table,
+#conteudo-revenda-acessorios-usado table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#conteudo-tipos-defeitos table th,
+#conteudo-tipos-defeitos table td,
+#conteudo-revenda-celular-usado table th,
+#conteudo-revenda-celular-usado table td,
+#conteudo-revenda-acessorios-usado table th,
+#conteudo-revenda-acessorios-usado table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center !important;
+}

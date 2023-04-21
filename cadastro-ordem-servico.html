@@ -1,0 +1,85 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>Cadastro de Ordem de Serviço</title>
+
+    <link rel="stylesheet" href="css/estilos.css"/>
+  </head>
+
+  <body>
+    
+    <div class="menu-navegacao">
+      <a href="index.html">Home</a>
+    </div>
+    
+    <h1>Cadastro de Ordem de Serviço</h1>
+
+    <div id="conteudo-cadastro-os">
+      <form method="GET">
+        <div>
+          Nome: 
+          </br>
+          <input type="text" name="nome"/>
+        </div>
+  
+        <div>
+          CPF:
+          </br>
+          <input type="text" name="cpf"/>
+        </div>
+  
+        <div>
+          Logradouro:
+          </br>
+          <input type="text" name="logradouro"/>
+        </div>
+  
+        <div>
+          CEP:
+          </br>
+          <input type="text" name="cep"/>
+        </div>
+  
+        <div>
+          Cidade:
+          </br>
+          <input type="text" name="cidade"/>
+        </div>
+  
+        <div>
+          Estado:
+          </br>
+          <input type="text" name="estado"/>
+        </div>
+  
+        <div>
+          Modelo do Celular:
+          </br>
+          <select name="modelo_celular">
+            <option value="a00">A00</option>
+            <option value="a01">A01</option>
+          </select>
+        </div>
+  
+        <div>
+          Relato de Defeito:
+          </br>
+          <textarea name="relato_defeito" cols="30" rows="10"></textarea>
+        </div>
+  
+        <div>
+          Imagem do Aparelho
+          <br>
+          <input type="file"/>
+        </div>
+  
+        <div id="botao-cadastro">
+          <button type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>
